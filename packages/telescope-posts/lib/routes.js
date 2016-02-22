@@ -1,10 +1,11 @@
-FlowRouter.route('/', {
+// Removed to avoid posts in the front page 
+/*FlowRouter.route('/', {
   name: "postsDefault",
   action: function(params, queryParams) {
     BlazeLayout.render("layout", {main: "main_posts_list"});
   }
 });
-
+*/
 FlowRouter.route('/posts/:_id/edit', {
   name: "postEdit",
   action: function(params, queryParams) {
