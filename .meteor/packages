@@ -39,5 +39,5 @@ telescope:theme-hubble
 telescope:update-prompt
 
 ############ Your Custom Packages ############
-telescope-static-pages
+telescope-custom-package
 tap:i18n-ui

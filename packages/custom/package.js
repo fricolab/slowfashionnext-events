@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'Telescope custom package – use as template for your own packages',
   version: '0.1.0',
-  name: 'telescope-static-pages'
+  name: 'telescope-custom-package'
 });
 
 Package.onUse(function (api) {
