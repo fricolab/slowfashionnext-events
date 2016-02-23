@@ -26,6 +26,7 @@ Users.addField({
   fieldName: 'customUserField',
   fieldSchema: {
     type: String,
+    allowedValues: ["rojo", "verde", "azul", "amarillo"],
     optional: true,
     editableBy: ["member", "admin"]
   }

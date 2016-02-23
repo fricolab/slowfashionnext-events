@@ -6,11 +6,11 @@ FlowRouter.route('/foro', {
 });
 
 Telescope.modules.add("primaryNav", {
-  template: 'foro_menu',
+  template: 'custom_menu',
   order: 100
 });
 
 Telescope.modules.add("mobileNav", {
-  template: 'foro_menu',
+  template: 'custom_menu',
   order: 1
 });

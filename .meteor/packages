@@ -40,3 +40,4 @@ telescope:update-prompt
 
 ############ Your Custom Packages ############
 telescope-static-pages
+tap:i18n-ui

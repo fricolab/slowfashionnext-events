@@ -31,7 +31,7 @@ Package.onUse(function (api) {
   // client
 
   api.addFiles([
-    'lib/client/templates/foro_menu.html',
+    'lib/client/templates/custom_menu.html',
     'lib/client/templates/welcome.html',
     'lib/client/stylesheets/custom.scss'
   ], ['client']);
