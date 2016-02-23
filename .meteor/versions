@@ -138,7 +138,7 @@ srp@1.0.4
 standard-app-packages@1.0.6
 tap:i18n@1.7.0
 tap:i18n-ui@0.7.0
-telescope-static-pages@0.1.0
+telescope-custom-package@0.1.0
 telescope:api@0.25.7
 telescope:comments@0.25.7
 telescope:core@0.25.7
