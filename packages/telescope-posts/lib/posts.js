@@ -31,7 +31,7 @@ Posts.schema = new SimpleSchema({
   },
   /**
     URL
-  */
+  Temporally removed as long as I am not able to make shareable URL work
   url: {
     type: String,
     optional: true,
@@ -224,7 +224,7 @@ Posts.schema = new SimpleSchema({
     optional: true
   },
   /**
-    The post author's `_id`. 
+    The post author's `_id`.
   */
   userId: {
     type: String,
@@ -260,4 +260,3 @@ Posts.allow({
   update: _.partial(Telescope.allowCheck, Posts),
   remove: _.partial(Telescope.allowCheck, Posts)
 });
-
