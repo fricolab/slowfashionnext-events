@@ -15,3 +15,10 @@
 .header {
   background-color: #DF0F46 !important;
 }
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: #333 !important;
+  }
+}
