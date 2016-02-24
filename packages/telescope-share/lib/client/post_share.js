@@ -8,6 +8,9 @@ Meteor.startup(function () {
     },
     viaTwitter: function () {
       return !!Settings.get('twitterAccount') ? 'via='+Settings.get('twitterAccount') : '';
+    },
+    siteUrl: function () {
+      return Settings.get('siteUrl') || Meteor.absoluteUrl();
     }
   });
 
