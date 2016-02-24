@@ -33,7 +33,8 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_menu_mobile.html',
     'lib/client/templates/programa.html',
     'lib/client/templates/welcome.html',
-    'lib/client/stylesheets/custom.scss'
+    'lib/client/stylesheets/custom.scss',
+    'lib/client/stylesheets/bootstrap.min.css'
   ], ['client']);
 
   // server
