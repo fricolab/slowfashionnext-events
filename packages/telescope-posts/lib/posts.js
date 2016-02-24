@@ -31,7 +31,7 @@ Posts.schema = new SimpleSchema({
   },
   /**
     URL
-  Temporally removed as long as I am not able to make shareable URL work
+  */
   url: {
     type: String,
     optional: true,
