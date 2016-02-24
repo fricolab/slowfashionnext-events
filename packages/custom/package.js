@@ -30,6 +30,8 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/client/templates/custom_menu.html',
+    'lib/client/templates/custom_menu_mobile.html',
+    'lib/client/templates/programa.html',
     'lib/client/templates/welcome.html',
     'lib/client/stylesheets/custom.scss'
   ], ['client']);
