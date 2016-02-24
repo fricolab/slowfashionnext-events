@@ -22,10 +22,8 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/custom_fields.js',
-    'lib/template_modules.js',
     'lib/callbacks.js',
-    'lib/foro.js',
-    'lib/welcome.js'
+    'lib/custom_content.js',
   ], ['client', 'server']);
 
   // client

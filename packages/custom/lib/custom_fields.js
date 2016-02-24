@@ -26,7 +26,7 @@ Users.addField({
   fieldName: 'customUserField',
   fieldSchema: {
     type: String,
-    allowedValues: ["rojo", "verde", "azul", "amarillo"],
+    allowedValues: ["Proveedor - rojo", "Distribuidor - verde", "Medios - negro", "Asesor/Personal Shopper - azul", "Taller - amarillo", "Diseñador/Marca - naranja", "Otros - blanco"],
     optional: true,
     editableBy: ["member", "admin"]
   }

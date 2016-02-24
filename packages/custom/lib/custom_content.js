@@ -1,3 +1,10 @@
+FlowRouter.route('/', {
+  name: "welcome",
+  action: function(params, queryParams) {
+    BlazeLayout.render("layout", {main: "welcome"});
+  }
+});
+
 FlowRouter.route('/foro', {
   name: "postsDefault",
   action: function(params, queryParams) {
