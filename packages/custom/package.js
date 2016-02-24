@@ -46,7 +46,8 @@ Package.onUse(function (api) {
   // i18n languages (must come last)
 
   api.addFiles([
-    'i18n/en.i18n.json'
+    'i18n/en.i18n.json',
+    "i18n/es.i18n.json"
   ], ['client', 'server']);
 
 });

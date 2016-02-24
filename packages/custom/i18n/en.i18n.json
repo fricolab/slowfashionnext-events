@@ -4,5 +4,6 @@
   "customPostField" : "My Custom Post Field",
   "customCommentField" : "My Custom Comment Field",
   "customUserField" : "My Custom User Field",
-  "customSettingsField" : "My Custom Settings Field"
+  "customSettingsField" : "My Custom Settings Field",
+  "post" : "Share your idea!"
 }
