@@ -5,5 +5,8 @@
   "customCommentField" : "My Custom Comment Field",
   "customUserField" : "My Custom User Field",
   "customSettingsField" : "My Custom Settings Field",
-  "post" : "Comparte tu idea!"
+  "post" : "Comparte tu idea!",
+  "Foro" : "Foro",
+  "Programa" : "Programa",
+  "Bienvenidas a nuestro evento" : "Bienvenidas a nuestro evento"
 }
