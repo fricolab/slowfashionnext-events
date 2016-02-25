@@ -17,7 +17,7 @@
   border-color: #000 !important;
 }
 
-.form-control {
+select.form-control {
   background-color: #000000 !important;
   color: #fff !important;
 }
@@ -43,4 +43,8 @@ a {
   &:hover {
     color: #333 !important;
   }
+}
+
+.custom-avatar {
+  color: #fff;
 }
