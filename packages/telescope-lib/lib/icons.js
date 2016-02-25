@@ -20,7 +20,7 @@ Telescope.utils.icons = {
   collapse: "angle-down",
   next: "angle-right",
   close: "times",
-  upvote: "thumbs-up",
+  upvote: "heart",
   voted: "check",
   downvote: "chevron-down",
   facebook: "facebook-square",

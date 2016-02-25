@@ -28,3 +28,8 @@ Telescope.modules.add("mobileNav", {
   template: 'custom_menu_mobile',
   order: 1
 });
+
+Telescope.modules.add("footer", {
+  template: 'custom_footer',
+  order: 1
+});
