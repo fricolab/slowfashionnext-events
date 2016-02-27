@@ -24,6 +24,7 @@ Package.onUse(function (api) {
     'lib/custom_fields.js',
     'lib/callbacks.js',
     'lib/custom_content.js',
+    'lib/custom_avatar.js'
   ], ['client', 'server']);
 
   // client
