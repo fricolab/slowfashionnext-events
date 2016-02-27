@@ -3,10 +3,11 @@
   "customAdminLink" : "Custom Admin Link",
   "customPostField" : "My Custom Post Field",
   "customCommentField" : "My Custom Comment Field",
-  "customUserField" : "My Custom User Field",
+  "customUserField" : "Me dedico a",
   "customSettingsField" : "My Custom Settings Field",
   "post" : "Comparte tu idea!",
   "Foro" : "Foro",
   "Programa" : "Programa",
-  "Bienvenidas a nuestro evento" : "Bienvenidas a nuestro evento"
+  "Bienvenidas a nuestro evento" : "Bienvenidas a nuestro evento",
+  "twitterUsername" : "Usuario Twitter"
 }

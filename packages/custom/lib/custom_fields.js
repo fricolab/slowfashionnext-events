@@ -1,24 +1,24 @@
 // Custom Post Field
 
-Posts.addField({
+/*Posts.addField({
   fieldName: 'customPostField',
   fieldSchema: {
     type: String,
     optional: true,
     editableBy: ["member", "admin"]
   }
-});
+});*/
 
 // Custom Comment Field
 
-Comments.addField({
+/*Comments.addField({
   fieldName: 'customCommentField',
   fieldSchema: {
     type: String,
     optional: true,
     editableBy: ["member", "admin"]
   }
-});
+});*/
 
 // Custom User Field
 
@@ -34,7 +34,7 @@ Users.addField({
 
 // Custom Setting Field
 
-Settings.addField({
+/*Settings.addField({
   fieldName: "customSettingsField",
   fieldSchema: {
     type: String,
@@ -43,4 +43,4 @@ Settings.addField({
       group: "customGroup"
     }
   }
-});
+});*/
