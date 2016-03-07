@@ -51,3 +51,7 @@ a {
 .avatar-image {
   display: none;
 }
+
+a[href="http://telescopeapp.org"] {
+  display: none;
+}

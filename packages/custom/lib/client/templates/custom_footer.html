@@ -1,9 +1,9 @@
 <template name="custom_footer">
-  <div class="footer-code {{moduleClass}}">
+  <div id="custom-footer" class="footer-code {{moduleClass}}">
     {{#if footerCode}}
       {{#markdown}}{{footerCode}}{{/markdown}}
     {{else}}
-      Made with love by <a href="https://fricolab.com" target="_blank"><img src="https://fricolab.github.io/images/logo_fricolaB.png"></a>
+      Hecho con amor por <a href="https://fricolab.com" target="_blank"><img src="https://fricolab.github.io/images/logo_fricolaB.png"></a>
     {{/if}}
   </div>
 </template>
