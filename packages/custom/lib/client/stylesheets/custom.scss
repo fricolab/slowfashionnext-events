@@ -31,13 +31,28 @@ select.form-control {
 }
 
 .logo-image {
-  margin-top: 150px;
+/*  margin-top: 150px;*/
   height: 150% !important;
+}
+
+.logo-image img {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-image img {
+    display:none;
+  }
+}
+
+
+h2.tagline {
+  display: none;
 }
 
 .header {
   background-color: #DF0F46 !important;
-  margin-bottom: 150px !important;
+/*  margin-bottom: 150px !important; */
 }
 
 a {
