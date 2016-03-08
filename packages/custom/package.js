@@ -31,6 +31,7 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/client/templates/custom_menu.html',
+    'lib/client/templates/custom_header.html',
     'lib/client/templates/custom_footer.html',
     'lib/client/templates/custom_menu_mobile.html',
     'lib/client/templates/programa.html',
