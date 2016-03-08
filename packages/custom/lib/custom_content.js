@@ -19,9 +19,18 @@ FlowRouter.route('/programa', {
   }
 });
 
-Telescope.modules.add("primaryNav", {
+Telescope.modules.add("secondaryNav", {
   template: 'custom_menu',
   order: 1
+});
+
+Telescope.modules.remove("primaryNav","search");
+
+Telescope.modules.remove("secondaryNav","submit_button");
+
+Telescope.modules.add("secondaryNav", {
+  template: 'search',
+  order: 100
 });
 
 Telescope.modules.add("mobileNav", {

@@ -45,6 +45,21 @@ select.form-control {
   }
 }
 
+@media only screen and (max-width: 600px) {
+   nav.navbar.navbar-default {
+    display: none;
+  }
+}
+
+#second-navbar {
+  display: inline-block !important;
+}
+
+.navbar-default {
+  background-color: #fff !important;
+  border-color: #000 !important;
+  text-align: center;
+}
 
 h2.tagline {
   display: none;
@@ -88,4 +103,8 @@ a[href="http://telescopeapp.org"] {
 
 .fa-3x {
   margin: 15px;
+}
+
+#site-claim {
+  font-style: italic;
 }
