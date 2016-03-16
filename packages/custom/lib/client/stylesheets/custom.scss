@@ -106,7 +106,8 @@ a {
   }
 }
 
-.custom-avatar {
+div#custom-user-avatar.user-profile-avatar div.avatar.avatar-large.avatar-circle img.avatar-image {
+  display: inherit !important;
 }
 
 .avatar-image {
