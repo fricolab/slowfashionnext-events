@@ -19,6 +19,13 @@ FlowRouter.route('/programa', {
   }
 });
 
+FlowRouter.route('/empieza_aqui', {
+  name: "empieza_aqui",
+  action: function(params, queryParams) {
+    BlazeLayout.render("layout", {main: "instrucciones"});
+  }
+});
+
 Telescope.modules.add("secondaryNav", {
   template: 'custom_menu',
   order: 1
