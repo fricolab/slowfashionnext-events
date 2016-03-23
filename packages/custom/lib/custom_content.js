@@ -49,3 +49,9 @@ Telescope.modules.add("footer", {
   template: 'custom_footer',
   order: 1
 });
+
+Telescope.modules.add("contentTop", {
+  template: "forum_banner",
+  order: 1,
+  only: ["postsDefault"]
+});
