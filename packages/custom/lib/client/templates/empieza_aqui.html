@@ -1,27 +1,46 @@
 <template name="instrucciones">
   <h2 >{{_ "Instrucciones"}}</h2>
-  <h3>¡Bienvenida a Slow Fashion Next!</h3>
+  <div class="row">
+    <div class="col-md-8">
+      <h3>¡Bienvenida a Slow Fashion Next!</h3>
 
-  <h3>1. Crea una cuenta</h3>
+      <h3>1. Crea una cuenta</h3>
 
-  <p>Haz click en el botón de “Registro” en el menú superior y regresa aquí una vez que hayas terminado.</p>
+      <p>Haz click en el botón de “Registro” en el menú superior y regresa aquí una vez que hayas terminado.</p>
 
-  <h3>2. ¡Empieza a publicar tus ideas!</h3>
+      <h3>2. ¡Empieza a publicar tus ideas!</h3>
 
-  <p>Ya está todo listo para que comiences a utilizar nuestra app para eventos. Comenta y vota las ideas del resto de usuarios o crea tus contenidos.</p>
+      <p>Ya está todo listo para que comiences a utilizar nuestra app para eventos. Comenta y vota las ideas del resto de usuarios o crea tus contenidos.</p>
 
-  <h3>3. Reconoce al resto de usuarios:</h3>
+      <h3>3. Reconoce al resto de usuarios:</h3>
 
-  <p>Cada usuario tiene un color asociado en función de su relación con el sector de la moda sostenible:</p>
+      <p>Cada usuario tiene un color asociado en función de su relación con el sector de la moda sostenible:</p>
 
-  <ul>
-  <li>Proveedores Sostenibles : Rojo</li>
-  <li>Distribuidores : Verde</li>
-  <li>Talleres de Confección : Amarillo</li>
-  <li>Medios : Negro</li>
-  <li>Diseñador : Naranja</li>
-  <li>Asesoría : Azul</li>
-  <li>Otros : Blanco</li>
-  </ul>
-
+      <ul>
+      <li>Proveedores Sostenibles : Rojo</li>
+      <li>Distribuidores : Verde</li>
+      <li>Talleres de Confección : Amarillo</li>
+      <li>Medios : Negro</li>
+      <li>Diseñador : Naranja</li>
+      <li>Asesoría : Azul</li>
+      <li>Otros : Blanco</li>
+      </ul>
+    </div>
+    <div class="col-md-4 twitter-widget">
+      <a class="twitter-timeline" href="https://twitter.com/hashtag/ModaSostenibleMT" data-widget-id="710382326329548800" data-chrome="noheader nofooter" height="1034">Tweets sobre #ModaSostenibleMT</a>
+<!--  <iframe width="100%" height="400" src="https://slowfashionspain.typeform.com/to/uWgHsY" frameborder="0"></iframe> -->
+    </div>
+  </div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src="https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+} (document,"script","twitter-wjs");
+twttr.widgets.load();
+</script>
 </template>

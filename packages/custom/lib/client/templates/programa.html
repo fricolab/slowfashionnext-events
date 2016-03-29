@@ -1,4 +1,23 @@
 <template name="programa">
   <h2 >{{_ "Programa de las jornadas"}}</h2>
-
+  <div class="row">
+    <div class="col-md-8">
+    </div>
+    <div class="col-md-4 twitter-widget">
+      <a class="twitter-timeline" href="https://twitter.com/hashtag/ModaSostenibleMT" data-widget-id="710382326329548800" data-chrome="noheader nofooter" height="1034">Tweets sobre #ModaSostenibleMT</a>
+<!--  <iframe width="100%" height="400" src="https://slowfashionspain.typeform.com/to/uWgHsY" frameborder="0"></iframe> -->
+    </div>
+  </div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src="https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+} (document,"script","twitter-wjs");
+twttr.widgets.load();
+</script>
 </template>
