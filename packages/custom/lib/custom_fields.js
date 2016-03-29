@@ -26,7 +26,7 @@ Users.addField({
   fieldName: 'customUserField',
   fieldSchema: {
     type: String,
-    allowedValues: ["Proveedor", "Distribución", "Medios", "Asesoramiento", "Taller", "Diseño", "Otros"],
+    allowedValues: ["Proveedor", "Distribución", "Medios", "Taller", "Diseño", "Otros"],
     optional: true,
     editableBy: ["member", "admin"]
   }

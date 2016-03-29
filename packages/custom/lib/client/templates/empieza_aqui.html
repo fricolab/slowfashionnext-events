@@ -2,29 +2,34 @@
   <h2 >{{_ "Instrucciones"}}</h2>
   <div class="row">
     <div class="col-md-8">
-      <h3>¡Bienvenida a Slow Fashion Next!</h3>
+      <h3>¡Bienvenid@ a la web de networking de Slow Fashion Next!</h3>
 
       <h3>1. Crea una cuenta</h3>
 
-      <p>Haz click en el botón de “Registro” en el menú superior y regresa aquí una vez que hayas terminado.</p>
+      <p>Haz click en el botón de <a href="/register">“Registrarse”</a> en el menú superior y regresa aquí una vez que hayas terminado de incluir tus datos.</p>
+
+      <p><a id="enlace_perfil" href="">Edita tu perfil</a> y completa todos detalles: tu sitio web, tu cuenta de Twitter, a qué te dedicas, etc. Lo puedes hacer en el munú superior en la opción "editar cuenta".</p>
 
       <h3>2. ¡Empieza a publicar tus ideas!</h3>
 
-      <p>Ya está todo listo para que comiences a utilizar nuestra app para eventos. Comenta y vota las ideas del resto de usuarios o crea tus contenidos.</p>
+      <p>Ya está todo listo para que comiences a utilizar nuestra web para seguir nuestros eventos sin perder detalle e interactur con otros usuarios.</p>
+      <p>Comenta y vota, haciendo click en el corazón al lado de cada comentario, las ideas del resto de participantes que más te gustan y crea también tus propios contenidos.</p>
+      <p>También puedes hacer directamente preguntas a los ponentes que van a venir a vernos, nosotros se las pasaremos para que las tengan en cuenta y os contesten durante sus ponencias.</p>
 
       <h3>3. Reconoce al resto de usuarios:</h3>
 
       <p>Cada usuario tiene un color asociado en función de su relación con el sector de la moda sostenible:</p>
 
       <ul>
-      <li>Proveedores Sostenibles : Rojo</li>
-      <li>Distribuidores : Verde</li>
-      <li>Talleres de Confección : Amarillo</li>
+      <li style="color:#ff0000">Proveedores Sostenibles : Rojo</li>
+      <li style="color:#00ff00">Distribuidores : Verde</li>
+      <li style="background-color:#000000; color:#ffff00"> Talleres de Confección : Amarillo</li>
       <li>Medios : Negro</li>
-      <li>Diseñador : Naranja</li>
-      <li>Asesoría : Azul</li>
-      <li>Otros : Blanco</li>
+      <li style="color:#ff9900">Diseñador : Naranja</li>
+      <li style="background-color:#000000; color:#ffffff">Otros : Blanco</li>
       </ul>
+
+      <p>¡No te cortes e interactúa! ¡recuerda que se trata de profesionales con las mismas inquietudes que tú!</p>
     </div>
     <div class="col-md-4 twitter-widget">
       <a class="twitter-timeline" href="https://twitter.com/hashtag/ModaSostenibleMT" data-widget-id="710382326329548800" data-chrome="noheader nofooter" height="1034">Tweets sobre #ModaSostenibleMT</a>
@@ -43,4 +48,14 @@
 } (document,"script","twitter-wjs");
 twttr.widgets.load();
 </script>
+<script>
+var a = document.getElementById('enlace_perfil');
+a.onclick = function redirectToSettings (user) {
+    var username = Meteor.user().username
+    FlowRouter.go("/users/" + username + "/edit");
+    return user;
+}
+</script>
+
+
 </template>
