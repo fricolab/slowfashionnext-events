@@ -6,11 +6,11 @@ var customColorScheme = function (user) {
   else if (user.customUserField === "Taller")
     return "#ffff00";
   else if (user.customUserField === "Medios")
-    return "#000000";
+    return "#DF0F46";
   else if (user.customUserField === "Diseño")
     return "#ff9900";
   else
-    return "#ffffff";
+    return "#00ffff";
 };
 
 Avatar.setOptions({
